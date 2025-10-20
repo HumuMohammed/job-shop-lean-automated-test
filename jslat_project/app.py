@@ -45,4 +45,4 @@ if st.button("Submit"):
     if q2 == "No":
         report += "- Recommendation for question 2.\n"
 
-    st.download_button(" Download Report", report, file_name="JSLAT report.txt")
+    st.download_button(" Download Report", report, file_name="JSLAT report.pdf")
